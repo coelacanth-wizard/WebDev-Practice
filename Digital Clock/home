@@ -12,7 +12,7 @@
     <div class="container">
       <div id="time">
         <!--Hour circle-->
-        <div class="circle">
+        <div class="circle" style="--color: #ff2972">
           <div class="dots hr_dot"></div>
           <svg>
             <circle cx="70" cy="70" r="70"></circle>
@@ -21,7 +21,7 @@
           <div id="hours">00</div>
         </div>
         <!--Minutes circle-->
-        <div class="circle">
+        <div class="circle" style="--color: #fee800">
           <div class="dots min_dot"></div>
           <svg>
             <circle cx="70" cy="70" r="70"></circle>
@@ -30,7 +30,7 @@
           <div id="minutes">00</div>
         </div>
         <!--Seconds circle-->
-        <div class="circle">
+        <div class="circle"style="--color: #04fc43">
           <div class="dots sec_dot"></div>
           <svg>
             <circle cx="70" cy="70" r="70"></circle>

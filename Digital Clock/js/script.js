@@ -31,9 +31,9 @@ setInterval (() =>{
     s = s < 10 ? '0' + s : s;
 
     // set time and label
-    hours.innerHTML = h + 'Hours';
-    minutes.innerHTML = m + 'Minutes';
-    seconds.innerHTML = s + 'Seconds';
+    hours.innerHTML = h + ' Hours';
+    minutes.innerHTML = m + ' Minutes';
+    seconds.innerHTML = s + ' Seconds';
     ampm.innerHTML = ap;
 
     //circle and dot locations

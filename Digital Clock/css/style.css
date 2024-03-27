@@ -55,10 +55,11 @@
 #time div{
     position: absolute;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
+/*this is the tag that doesn't make sense*/
 #time div span {
     position: absolute;
     transform: translate(-50%,0px);
